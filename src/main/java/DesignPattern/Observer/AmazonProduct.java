@@ -1,6 +1,8 @@
 package DesignPattern.Observer;
 
-import java.util.ArrayList;
+import DesignPattern.Observer.Interfaces.Observable;
+import DesignPattern.Observer.Interfaces.Observer;
+
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 

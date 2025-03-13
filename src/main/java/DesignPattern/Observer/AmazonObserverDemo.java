@@ -13,18 +13,20 @@ public class AmazonObserverDemo {
 
         AmazonProduct brownBread = new AmazonProduct("Brown Bread");
 
+        User user1 = new User("Rahul Sharma" , "rahul.kumarkv1@gmail.com" , "1234567890");
+        User user2 = new User("Virat Kohli" , "virat.kohli@outlook.in" , "9638521470");
 
-        Customer customer1 = new Customer("Rahul Sharma");
-//        Customer customer2 = new Customer("Tanvi Sharma");
-
-        customer1.notifyMe(iphone);
-//        customer2.notifyMe(iphone);
+        user1.notifyMe(iphone);
+        user2.notifyMe(samsung);
 
 
 
         iphone.setInStock(true);
+        samsung.setInStock(true);
+        samsung.setInStock(false);
         iphone.setInStock(false);
         iphone.setInStock(true);
+        samsung.setInStock(true);
 
 
 

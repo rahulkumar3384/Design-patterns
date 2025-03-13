@@ -1,5 +1,8 @@
 package DesignPattern.Observer;
 
+import DesignPattern.Observer.Interfaces.Observable;
+import DesignPattern.Observer.Interfaces.Observer;
+
 public class Customer implements Observer {
     private String customerName;
     private int numberofNotifications = 0;
